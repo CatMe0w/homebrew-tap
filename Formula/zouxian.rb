@@ -15,9 +15,6 @@ class Zouxian < Formula
       To ensure zouxian works correctly, please follow these steps:
         - Make sure Xcode is installed and has been run at least once.
         - Disable SIP debugging restrictions by running the `csrutil enable --without debug` command in Recovery mode.
-
-      After completing these steps, start the service with:
-        sudo brew services start zouxian
     EOS
   end
 
