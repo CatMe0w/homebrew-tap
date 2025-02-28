@@ -23,6 +23,4 @@ class Zouxian < Formula
     run bin/"zouxian"
     require_root true
   end
-
-  deprecate! date: "2024-12-30", because: "zouxian is no longer recommended, check https://github.com/CatMe0w/zouxian for a new method that doesn't require disabling SIP."
 end
